@@ -3,4 +3,7 @@ function getComputerChoice(){
     return randomNumber===1?"rock":randomNumber===2?"paper":"scissors";
 }
 
-
+function getHumanChoice(){
+    let usersChoice = window.prompt("What's your choice? (choices: rock, paper, scissors)");   
+    return usersChoice;
+}
